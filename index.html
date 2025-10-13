@@ -5,49 +5,137 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Hace el sitio responsive en dispositivos móviles -->
 		<title>My Web Project - WEB ATELIER (UDIT)</title> <!-- Título que aparece en la pestaña del navegador -->
 		<meta name="description" content="A student web project for WEB ATELIER (UDIT) course" /> <!-- Descripción para SEO -->
-		<link rel="stylesheet" href="./assets/css/style.css" /> <!-- Enlace a la hoja de estilos principal -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<link rel="stylesheet" href="./assets/css/index.css" />
+		<link rel="stylesheet" href="./assets/css/sow.css" />
+		<!-- Google Fonts: Anton and Inter -->
+		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+		
 		<!-- Sugerencia: Puedes añadir favicon y fuentes externas aquí para mejorar la apariencia -->
 	</head>
 	<body>
-		<a href="#main" class="skip-link">Skip to main content</a> <!-- Enlace de accesibilidad para saltar al contenido principal -->
+    <!-- ===================================== -->
+    <!-- ENCABEZADO + MENÚ STICKY -->
+    <!-- ===================================== -->
+    <header>
+  	<a href="#home" class="logo">
+  		<img src="/assets/img/logo.svg" alt="My logo" />
+	</a>
 
-		<header>
-			<div class="container">
-				<h1>My Web PROYECTOOOOOOOOOOO</h1> <!-- Título principal de la página -->
-				<p>Student Project - WEB ATELIER (UDIT)</p> <!-- Subtítulo o descripción breve -->
-			</div>
-			<!-- Sugerencia: Puedes agregar un menú de navegación aquí -->
-		</header>
+  <!-- Botón menú hamburguesa -->
+  <button class="menu-toggle" aria-label="Abrir menú de navegación">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
 
-		<main id="main" class="container">
-			<section>
-				<h2>Welcome</h2> <!-- Encabezado de sección -->
-				<p>
-					This is the starting point for my web project. I will build this incrementally, committing progress after each
-					class.
-				</p>
+  <!-- Navegación principal -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#practica1">Práctica 1</a></li>
+      <li><a href="#practica2">Práctica 2</a></li>
+      <li><a href="#practica3">Práctica 3</a></li>
+    </ul>
+  </nav>
+</header>
 
-				<h3>Project Goals</h3> <!-- Subtítulo para los objetivos del proyecto -->
-				<ul>
-					<li>Create a responsive, accessible website</li> <!-- Objetivo: Responsividad y accesibilidad -->
-					<li>Practice semantic HTML</li> <!-- Objetivo: Usar etiquetas semánticas -->
-					<li>Implement modern CSS techniques</li> <!-- Objetivo: CSS moderno -->
-					<li>Follow web accessibility guidelines</li> <!-- Objetivo: Accesibilidad -->
-				</ul>
-				<!-- Sugerencia: Puedes añadir más objetivos o detalles sobre el proyecto -->
-			</section>
+    <!-- ===================================== -->
+    <!-- PORTADA CON VÍDEO DE FONDO -->
+    <!-- ===================================== -->
+    <section class="cover">
+  <!-- Vídeo de fondo -->
+  <video autoplay muted loop playsinline class="background-video">
+    <source src="https://ik.imagekit.io/carlikgr/sow/video-cover1.mp4?updatedAt=1760382524415" type="video/mp4" />
+  </video>
 
-			<section>
-				<h2>Weekly Progress</h2>
-				<p>
-					Check my
-					<a href="https://github.com/[username]/[project-repo]/commits/main">commit history</a>
-					to see weekly progress.
-				</p>
-				<!-- Sugerencia: Puedes mostrar una lista de avances semanales aquí -->
-			</section>
-		</main>
+  <!-- Contenido sobre el vídeo -->
+  <div class="cover-content">
+    <h1 class="cover-title">Some Outstanding Webs</h1>
+    <p class="cover-subtitle">Análisis de sitios web premiados · UDIT</p>
+  </div>
+</section>
 
+    <!-- ===================================== -->
+    <!-- CONTENIDO PRINCIPAL -->
+    <!-- ===================================== -->
+    <main>
+     
+	  <!--Primera web analizada-->
+
+	  <section class="site-analysis">
+  <div class="analysis-container">
+    <!-- Columna izquierda -->
+    <aside class="analysis-info">
+      <p class="subtitle-uppercase">WEB 1</p>
+      <h2 class="site-title">Roman Jean-Elie</h2>
+
+      <div class="tags">
+        <span class="tag active">Portfolio</span>
+        <span class="tag">Artista</span>
+        <span class="tag">Creativo</span>
+      </div>
+
+      <div class="text-block">
+        <h3>Descripción</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <!-- </div>
+      <div class="text-block">
+        <h3>Motivo de selección</h3>
+        <p> Esta web reúne muchas facetas que permiten un análisis profundo: identidad artística, narrativa personal, efectos visuales / movimiento, y contraste entre estética y funcionalidad. Además, fue reconocida en Awwwards (“Honorable Mention 2023”) lo que indica que cumple estándares de excelencia. Awwwards+1
+</p>
+      </div>
+      <div class="text-block">
+        <h3>Primera impresión</h3>
+        <p>Al entrar, sientes un ambiente sobrio, elegante y escultórico: una interfaz minimalista que da espacio para que cada palabra e interacción “respiren”. La tipografía, el balance de blancos y la ausencia de distracciones captan atención. El título “Creative Developer” comunica inmediatamente el rol. La sensación es de profesionalidad artística con un toque meditativo.</p>
+      </div> -->
+    </aside>
+
+    <!-- Columna derecha: imagen de la web -->
+    <figure class="site-image">
+      <img src="/assets/img/roman-jeanelie.png" alt="Captura del sitio Roman Jean-Elie" />
+    </figure>
+  </div>
+
+  <!-- Selectores de contenido
+  <div class="selectors">
+    <button class="selector active" data-tab="1">Enfoque teórico</button>
+    <button class="selector" data-tab="2">Estructura y contenido</button>
+    <button class="selector" data-tab="3">Diseño visual e identidad</button>
+    <button class="selector" data-tab="4">Interacción y creatividad</button>
+    <button class="selector" data-tab="5">Usabilidad y accesibilidad</button>
+    <button class="selector" data-tab="6">Desempeño técnico</button>
+    <button class="selector" data-tab="7">Valoración por excelencia</button>
+    <button class="selector" data-tab="8">Conclusiones y aprendizajes</button>
+
+
+
+
+  </div> -->
+
+  <!-- Contenido que cambia según selector
+  <div class="tab-content">
+    <div class="tab-pane active" data-tab="1">
+      <div class="columns">
+        <p>Contenido columna izquierda del Tab 1.</p>
+        <p>Contenido columna derecha del Tab 1.</p>
+      </div>
+    </div>
+    <div class="tab-pane" data-tab="2">
+      <div class="columns">
+        <p>Contenido columna izquierda del Tab 2.</p>
+        <p>Contenido columna derecha del Tab 2.</p>
+      </div>
+    </div>
+    <div class="tab-pane" data-tab="3">
+      <div class="columns">
+        <p>Contenido columna izquierda del Tab 3.</p>
+        <p>Contenido columna derecha del Tab 3.</p>
+      </div>
+    </div> -->
+  </div>
+</section>
+    </main>
 		<footer>
 			<div class="container">
 				<p>© 2025 [Your Name] — WEB ATELIER (UDIT) · Web Design (2025 Fall).</p> <!-- Pie de página con créditos -->

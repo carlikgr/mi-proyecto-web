@@ -1,0 +1,245 @@
+
+:root {
+  /* -------------------- TIPOGRAFÍAS -------------------- */
+  --title-large: 'Anton', sans-serif;    /* h1 */
+  --title-medium: 'Anton', sans-serif;   /* h2 */
+  --subtitle-uppercase: 'Inter', sans-serif; /* uppercase, bold, pequeño */
+  --body-large: 'Inter', sans-serif;     /* texto normal */
+
+  /* -------------------- TAMAÑOS VARIABLES -------------------- */
+  --font-h1: clamp(48px, 6vw, 96px);       /* crece con ancho de pantalla */
+  --font-h2: clamp(32px, 4vw, 64px);
+  --font-subtitle: clamp(16px, 2vw, 20px);
+  --font-body: clamp(14px, 1.8vw, 18px);
+}
+
+/* -------------------- TITULOS -------------------- */
+h1 {
+  font-family: var(--title-large);
+  font-size: var(--font-h1);
+  line-height: 1.1;
+}
+
+h2 {
+  font-family: var(--title-medium);
+  font-size: var(--font-h2);
+  line-height: 1.2;
+}
+
+/* -------------------- SUBTITULOS -------------------- */
+.subtitle-uppercase {
+  font-family: var(--subtitle-uppercase);
+  font-weight: 700;
+  font-size: var(--font-subtitle);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* -------------------- TEXTO NORMAL -------------------- */
+.body-large {
+  font-family: var(--body-large);
+  font-weight: 400;
+  font-size: var(--font-body);
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-large);
+}
+
+main, footer {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+/* Sección cover: ocupa toda la ventana */
+.cover {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* altura total de la pantalla */
+  overflow: hidden;
+}
+
+/* Vídeo de fondo */
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* mantiene proporción y cubre toda la sección */
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Contenedor de título y subtítulo */
+.cover-content {
+  position: absolute;
+  bottom: 3rem; /* margen inferior */
+  right: 6rem;  /* margen derecho desktop */
+  z-index: 2;
+  color: #fff;
+  text-align: right;
+}
+
+/* Tipografía del título y subtítulo */
+.cover-title {
+  font-family: 'Anton', sans-serif;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.cover-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: var(--subtitle-uppercase); /* 20px desktop */
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
+
+/*Análisis de web */
+
+.analysis-container {
+    padding-top: 6rem;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.analysis-info {
+  flex: 1;
+  max-width: 400px; /* ancho fijo o variable según tu diseño */
+}
+
+.analysis-info .subtitle-uppercase {
+  font-family: var(--subtitle-uppercase);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: var(--font-subtitle);
+  margin-bottom: 0.5rem;
+}
+
+.analysis-info .site-title {
+  font-family: var(--title-medium);
+  font-size: var(--font-h2);
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.tag {
+  background-color: #fca859;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+.text-block {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.text-block h3{
+  font-weight: bold;
+}
+
+.site-image {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+
+.site-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Selectores */
+.selectors {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  justify-content:space-around;
+  font-family: var(--body-large);
+}
+
+.selector {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #eee;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: var(--body-large);
+
+}
+
+.selector.active {
+  background-color: #fca859;
+  color: #fff;
+}
+
+/* Contenido tabs */
+.tab-content .tab-pane {
+  display: none;
+}
+
+.tab-content .tab-pane.active {
+  display: block;
+}
+
+.columns {
+  display: flex;
+  gap: 2rem;
+}
+
+.columns p {
+  flex: 1;
+}
+
+
+@media (max-width: 768px) { /* móvil/tablet */
+  body {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .cover-content {
+    right: 32px; /* margen mobile */
+    bottom: 32px;
+  }
+  .cover-title {
+    font-size: calc(var(--title-large) * 0.6); /* ajusta tamaño proporcional */
+  }
+  .cover-subtitle {
+    font-size: calc(var(--subtitle-uppercase) * 0.8);
+  }
+   main, footer {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+
+
+/*Análisis de web */
+
+  .analysis-container {
+    flex-direction: column;
+  }
+  .columns {
+    flex-direction: column;
+  }
+  .site-image {
+    margin-top: 1rem;
+  }
+}

@@ -50,3 +50,29 @@ function updatePageMetadata(title, description) {
 		document.head.appendChild(metaDescription);
 	}
 }
+
+
+//Control del menú hamburguesa y animación
+
+document.addEventListener("DOMContentLoaded", () => {
+  const menuToggle = document.querySelector(".menu-toggle");
+  const nav = document.querySelector(".main-nav");
+
+  if (menuToggle && nav) {
+    menuToggle.addEventListener("click", () => {
+      menuToggle.classList.toggle("open");
+      nav.classList.toggle("active");
+    });
+  }
+
+  // Cerrar menú al hacer clic en un enlace (en móvil)
+  const navLinks = document.querySelectorAll(".main-nav a");
+  navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      if (nav.classList.contains("active")) {
+        nav.classList.remove("active");
+        menuToggle.classList.remove("open");
+      }
+    });
+  });
+});
