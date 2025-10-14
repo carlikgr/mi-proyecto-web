@@ -134,10 +134,10 @@ main, footer {
 }
 
 .tag {
-  background-color: #fca859;
+  background-color: #ff0000;
   color: #fff;
-  padding: 0.25rem 0.5rem;
-  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
   font-size: 0.9rem;
 }
 
@@ -146,6 +146,15 @@ main, footer {
   display: flex;
   flex-direction: column;
   gap: .5rem;
+}
+
+.text-block a {
+  font-weight: bold;
+  color: black;
+}
+
+.text-block p{
+  line-height: normal;
 }
 
 .text-block h3{
@@ -165,7 +174,7 @@ main, footer {
   border-radius: 8px;
 }
 
-/* Selectores */
+/* Selectores
 .selectors {
   display: flex;
   gap: 1rem;
@@ -190,7 +199,7 @@ main, footer {
 }
 
 /* Contenido tabs */
-.tab-content .tab-pane {
+/* .tab-content .tab-pane {
   display: none;
 }
 
@@ -205,8 +214,72 @@ main, footer {
 
 .columns p {
   flex: 1;
+} */ 
+
+/* GRID DE ANÁLISIS DETALLADO */
+/* ========================================================= */
+.info-grid {
+  width: 100%;
+  /* padding-inline: 24px; */
+  margin-top: 4rem;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  width: 100%;
+}
+
+.grid-block {
+  background: #f5f5f5;
+  padding: 24px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.grid-block:hover {
+  background: #ececec;
+}
+
+.grid-block h3 {
+  font-family: var(--title-medium);
+  font-size: clamp(1.25rem, 1vw + 1rem, 1.5rem);
+  margin-bottom: 0.5rem;
+}
+
+.grid-block p {
+  font-family: var(--body-large);
+  font-size: clamp(0.9rem, 0.5vw + 0.8rem, 1rem);
+  line-height: 1.6;
+}
+
+.colors-container {
+      display: flex;          /* Coloca los rectángulos en fila */
+      gap: 16px;
+      padding-top: 24px;              /* Espacio de 16px entre ellos */
+    }
+
+ .circle1 {
+      width: 100px;        /* Ancho */
+      height: 100px;       /* Alto igual al ancho para que sea círculo */
+      background-color: #ff0000; /* Color de ejemplo */
+      border-radius: 50%;  /* Hace que sea completamente redondo */
+    }
+
+    .circle2 {
+      width: 100px;        /* Ancho */
+      height: 100px;       /* Alto igual al ancho para que sea círculo */
+      background-color: black; /* Color de ejemplo */
+      border-radius: 50%;  /* Hace que sea completamente redondo */
+    }
+ .circle3 {
+      width: 100px;        /* Ancho */
+      height: 100px;       /* Alto igual al ancho para que sea círculo */
+      background-color: rgb(255, 255, 255); /* Color de ejemplo */
+      border-radius: 50%;  /* Hace que sea completamente redondo */
+      border: 1px solid black;
+    }
 
 @media (max-width: 768px) { /* móvil/tablet */
   body {
@@ -242,4 +315,9 @@ main, footer {
   .site-image {
     margin-top: 1rem;
   }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
 }
