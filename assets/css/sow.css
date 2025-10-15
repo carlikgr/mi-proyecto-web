@@ -76,8 +76,8 @@ main, footer {
 /* Contenedor de título y subtítulo */
 .cover-content {
   position: absolute;
-  bottom: 3rem; /* margen inferior */
-  right: 6rem;  /* margen derecho desktop */
+  bottom: 3rem; 
+  right: 3rem;  
   z-index: 2;
   color: #fff;
   text-align: right;
@@ -92,7 +92,7 @@ main, footer {
 
 .cover-subtitle {
   font-family: 'Inter', sans-serif;
-  font-size: var(--subtitle-uppercase); /* 20px desktop */
+  font-size: var(--subtitle-uppercase); 
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0.5rem;
@@ -110,7 +110,7 @@ main, footer {
 
 .analysis-info {
   flex: 1;
-  max-width: 400px; /* ancho fijo o variable según tu diseño */
+  max-width: 400px; 
 }
 
 .analysis-info .subtitle-uppercase {
@@ -134,7 +134,7 @@ main, footer {
 }
 
 .tag {
-  background-color: #ff0000;
+  background-color: #767676;
   color: #fff;
   padding: 0.5rem 1rem;
   border-radius: 20px;
@@ -258,9 +258,9 @@ main, footer {
       display: flex;          /* Coloca los rectángulos en fila */
       gap: 16px;
       padding-top: 24px;              /* Espacio de 16px entre ellos */
-    }
+}
 
- .circle1 {
+.circle1 {
       width: 100px;        /* Ancho */
       height: 100px;       /* Alto igual al ancho para que sea círculo */
       background-color: #ff0000; /* Color de ejemplo */
@@ -274,29 +274,29 @@ main, footer {
       border-radius: 50%;  /* Hace que sea completamente redondo */
     }
  .circle3 {
-      width: 100px;        /* Ancho */
-      height: 100px;       /* Alto igual al ancho para que sea círculo */
-      background-color: rgb(255, 255, 255); /* Color de ejemplo */
-      border-radius: 50%;  /* Hace que sea completamente redondo */
+      width: 100px;      
+      height: 100px;       
+      background-color: rgb(255, 255, 255); 
+      border-radius: 50%;  
       border: 1px solid black;
     }
 
-@media (max-width: 768px) { /* móvil/tablet */
-  body {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
 
+@media (max-width: 768px) { /* móvil/tablet */
+  
   .cover-content {
-    right: 32px; /* margen mobile */
+    right: 32px; 
     bottom: 32px;
   }
+
   .cover-title {
-    font-size: calc(var(--title-large) * 0.6); /* ajusta tamaño proporcional */
+    font-size: 4rem;
   }
+
   .cover-subtitle {
-    font-size: calc(var(--subtitle-uppercase) * 0.8);
+    font-size: 14px;
   }
+
    main, footer {
     padding-left: 32px;
     padding-right: 32px;
@@ -308,6 +308,8 @@ main, footer {
 
   .analysis-container {
     flex-direction: column;
+    gap: 0;
+    padding-top: 3rem;
   }
   .columns {
     flex-direction: column;
@@ -318,6 +320,11 @@ main, footer {
 
   .grid-container {
     grid-template-columns: 1fr;
+  }
+
+  .circle1, .circle2, .circle3{
+    height: 64px;
+    width: 64px;
   }
 
 }
