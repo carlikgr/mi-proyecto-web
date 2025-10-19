@@ -17,7 +17,8 @@ html {
 header {
   position: sticky;
   top: 0;
-  background: #fff;
+  background: #ffffff7a;
+  backdrop-filter: blur(8px);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,6 +26,8 @@ header {
   border-radius: 12px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   z-index: 10;
+  /* margin: 0 2%;
+  top: 20px; */
 }
 
 header nav {
@@ -87,10 +90,17 @@ header nav {
   transition: all 0.3s ease;
 }
 
+@media (max-width: 1024px) {
 
+main{
+    padding: 0 32px;
+  }
+ } 
 
 /* --- RESPONSIVE --- */
 @media (max-width: 768px) {
+
+  
 	header{
 		padding: 1rem 2rem;
 	}
