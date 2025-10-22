@@ -1,438 +1,903 @@
-<!DOCTYPE html> <!-- Declaración del tipo de documento: HTML5 -->
-<html lang="es"> <!-- Idioma principal del documento: español -->
-	<head>
-		<meta charset="UTF-8" /> <!-- Codificación de caracteres: UTF-8 para soportar caracteres especiales -->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Hace el sitio responsive en dispositivos móviles -->
-		<title>My Web Project - WEB ATELIER (UDIT)</title> <!-- Título que aparece en la pestaña del navegador -->
-		<meta name="description" content="A student web project for WEB ATELIER (UDIT) course" /> <!-- Descripción para SEO -->
-		<link rel="stylesheet" href="./assets/css/style.css" />
-		<link rel="stylesheet" href="./assets/css/index.css" />
-		<link rel="stylesheet" href="./assets/css/sow.css" />
-		<!-- Google Fonts: Anton and Inter -->
-		<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<!-- Declaración del tipo de documento: HTML5 -->
+<html lang="es">
+  <!-- Idioma principal del documento: español -->
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Codificación de caracteres: UTF-8 para soportar caracteres especiales -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Hace el sitio responsive en dispositivos móviles -->
+    <title>My Web Project - WEB ATELIER (UDIT)</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+    <meta
+      name="description"
+      content="A student web project for WEB ATELIER (UDIT) course"
+    />
+    <!-- Descripción para SEO -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/sow.css" />
+    <!-- Google Fonts: Anton and Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-		
-		<!-- Sugerencia: Puedes añadir favicon y fuentes externas aquí para mejorar la apariencia -->
-	</head>
-	<body>
+    <!-- Sugerencia: Puedes añadir favicon y fuentes externas aquí para mejorar la apariencia -->
+  </head>
+  <body>
     <!-- ===================================== -->
     <!-- ENCABEZADO + MENÚ STICKY -->
     <!-- ===================================== -->
     <header>
-  	<a href="#home" class="logo">
-  		<img src="./assets/img/logo.svg" alt="My logo" />
-	</a>
+      <a href="#home" class="logo">
+        <img src="./assets/img/logo.svg" alt="My logo" />
+      </a>
 
-  <!-- Botón menú hamburguesa -->
-  <button class="menu-toggle" aria-label="Abrir menú de navegación">
-    <span class="bar"></span>
-    <span class="bar"></span>
-    <span class="bar"></span>
-  </button>
+      <!-- Botón menú hamburguesa -->
+      <button class="menu-toggle" aria-label="Abrir menú de navegación">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
 
-  <!-- Navegación principal -->
-  <nav class="main-nav">
-    <ul>
-      <li><a href="#web1">Roman Jean-Elie</a></li>
-      <li><a href="#web2">Don´t board me</a></li>
-      <li><a href="#web3">Relats</a></li>
-      <li><a href="#web4">David Alaba</a></li>
-    </ul>
-  </nav>
-</header>
+      <!-- Navegación principal -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#web1">Roman Jean-Elie</a></li>
+          <li><a href="#web2">Don´t board me</a></li>
+          <li><a href="#web3">Relats</a></li>
+          <li><a href="#web4">David Alaba</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- ===================================== -->
     <!-- PORTADA CON VÍDEO DE FONDO -->
     <!-- ===================================== -->
     <section class="cover">
-  <!-- Vídeo de fondo -->
-  <video autoplay muted loop playsinline class="background-video">
-    <source src="./assets/videos/video-cover-2.mp4" type="video/mp4" />
-  </video>
+      <!-- Vídeo de fondo -->
+      <video autoplay muted loop playsinline class="background-video">
+        <source src="./assets/videos/video-cover-2.mp4" type="video/mp4" />
+      </video>
 
-  <!-- Contenido sobre el vídeo -->
-  <div class="cover-content">
-    <h1 class="cover-title">Some Outstanding Webs</h1>
-    <p class="cover-subtitle">Análisis de sitios web premiados · UDIT</p>
-  </div>
-</section>
+      <!-- Contenido sobre el vídeo -->
+      <div class="cover-content">
+        <h1 class="cover-title">Some Outstanding Webs</h1>
+        <p class="cover-subtitle">Análisis de sitios web premiados · UDIT</p>
+      </div>
+    </section>
 
     <!-- ===================================== -->
     <!-- CONTENIDO PRINCIPAL -->
     <!-- ===================================== -->
     <main>
-     
-	  <!--Primera web analizada-->
+      <!--Primera web analizada-->
 
-	  <section class="site-analysis" id="web1">
-      <div class="analysis-container" >
-        <!-- Columna izquierda -->
-        <aside class="analysis-info">
-          <p class="subtitle-uppercase">WEB 1</p>
-          <h2 class="site-title">Roman Jean-Elie</h2>
+      <section class="site-analysis" id="web1">
+        <div class="analysis-container">
+          <!-- Columna izquierda -->
+          <aside class="analysis-info">
+            <p class="subtitle-uppercase">WEB 1</p>
+            <h2 class="site-title">Roman Jean-Elie</h2>
 
-          <div class="tags">
-            <span class="tag active">Portfolio</span>
-            <span class="tag">Artista</span>
-            <span class="tag">Creativo</span>
-          </div>
+            <div class="tags">
+              <span class="tag active">Portfolio</span>
+              <span class="tag">Artista</span>
+              <span class="tag">Creativo</span>
+            </div>
 
-          <div class="text-block">
-            <h3>Descripción</h3>
-            <p>Se trata de un portfolio personal con enfoque creativo, interactivo y experimental. Parece estar actualizado ya que aparece como nominado en la web de <a href="https://www.awwwards.com/sites/portfolio-25-1?utm">Awwwwards</a> .</p>
-        </aside>
+            <div class="text-block">
+              <h3>Descripción</h3>
+              <p>
+                Se trata de un portfolio personal con enfoque creativo,
+                interactivo y experimental. Parece estar actualizado ya que
+                aparece como nominado en la web de
+                <a href="https://www.awwwards.com/sites/portfolio-25-1?utm"
+                  >Awwwwards</a
+                >
+                .
+              </p>
+            </div>
+          </aside>
 
-        <!-- Columna derecha: imagen de la web -->
-        <figure class="site-image">
-          <img src="./assets/img/roman-jeanelie.png" alt="Captura del sitio Roman Jean-Elie" />
-        </figure>
-      </div>
+          <!-- Columna derecha: imagen de la web -->
+          <figure class="site-image">
+            <img
+              src="./assets/img/roman-jeanelie.png"
+              alt="Captura del sitio Roman Jean-Elie"
+            />
+          </figure>
+        </div>
 
-      <div class="info-grid">
-        <div class="grid-container">
-          <div class="grid-block">
-            <h3>Impresión inicial</h3>
-            <p>Al entrar al sitio lo primero que llama la atención es la sobriedad, pero también la elegancia sutil que esconde esta web. la interfaz minimalista y el uso generoso de espacios en blanco permiten que cada elemento respire también la tipografía limpia y el encabezado comunican profesionalidad artística. De inmediato la web transmite un tono refinado, ya que no es llamativa por la saturación visual, sino por el control y el cuidado en la construcción de los elementos, invitando a los usuarios a explorar de manera pausada.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Enfoque teórico</h3>
-            <p>Este análisis se centra en tres perspectivas. Primeramente desde lo visual y semiótico se puede ver como la tipografía el uso del espacio negativo y los elementos minimalistas comunican una identidad profesional, un refinamiento muy cuidado y también se reflejqn los dotes artísticos del autor especializado en cine y teatro. Desde el punto de vista de usabilidad y UX la navegación es intuitiva y fluida tanto desto como móvil y las acciones están bien jerarquizadas, lo cual facilita el descubrimiento del contenido y mantiene al usuario inmerso la experiencia. Desde enfoque crítico, el sitio representa al autor común, creador visual que sabe integrar el arte y la tecnología aunque quizás su estética tan cinematográfica podría limitar la accesibilidad y la comprensión inmediata. Para algunos usuarios. En conjunto la narrativa de esta página web es muy profesional y artística, lo cual demuestra las habilidades técnicas y la sensibilidad creativa para generar una experiencia visual memorable.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Estructura y contenido</h3>
-            <p>Esta web está organizada en un esquema simple y claro, empezando con un inicio que contiene un encabezado visual fuerte, con unas tipografías grandes y un vídeo de fondo minimalista, el cual te muestra la estética y el cuidado artístico de la persona. En el menú, que está colocado al lateral izquierdo, se puede acceder a las secciones de proyectos destacados e información sobre el autor y el contacto. El flujo de navegación no es complicado y las páginas no son muy largas. Por lo tanto no hay que hacer muchos Croll menos en la página de los servicios que además incluye unos efectos interesantes que vuelven a darle ese toque artístico al portfolio. La jerarquía de títulos es coherente y el contenido textual es muy conciso, donde sobre todo destacan las imágenes y vídeos y las técnicas utilizadas por el creador de esta web. La narrativa visual funciona como hilo, conductor y el usuario entiende de inmediato que está frente a un por folio profesional, centrado en proyectos audiovisuales con las secciones justas para cumplir con el propósito de forma clara y sin saturar de información.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Diseño visual e identidad</h3>
-            <p>La identidad visual es coherente y potente, ya que la tipografía utilizada es elegante legible y bastante llamativa en cuanto a tamaños. La combinación de colores oscuros con toques rojos y blancos generan el contraste necesario y dramatismo, que junto a las imágenes y vídeos, refuerzan su estilo cinematográfico. El estilo minimalista y el uso del espacio hacen que cada elemento destaque sin saturar la pantalla, mientras que las animaciones suaves aportan dinamismo sin distraer del contenido. La estética global comunica profesionalidad y sensibilidad artística, transmitiendo la esencia de su trabajo creativo y su enfoque visual único</p>
-            <div class="colors-container">
-              <div class="circle1"></div>
-              <div class="circle2"></div>
-              <div class="circle3"></div>
+        <div class="info-grid">
+          <div class="grid-container">
+            <div class="grid-block">
+              <h3>Impresión inicial</h3>
+              <p>
+                Al entrar al sitio lo primero que llama la atención es la
+                sobriedad, pero también la elegancia sutil que esconde esta web.
+                la interfaz minimalista y el uso generoso de espacios en blanco
+                permiten que cada elemento respire también la tipografía limpia
+                y el encabezado comunican profesionalidad artística. De
+                inmediato la web transmite un tono refinado, ya que no es
+                llamativa por la saturación visual, sino por el control y el
+                cuidado en la construcción de los elementos, invitando a los
+                usuarios a explorar de manera pausada.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Enfoque teórico</h3>
+              <p>
+                Este análisis se centra en tres perspectivas. Primeramente desde
+                lo visual y semiótico se puede ver como la tipografía el uso del
+                espacio negativo y los elementos minimalistas comunican una
+                identidad profesional, un refinamiento muy cuidado y también se
+                reflejqn los dotes artísticos del autor especializado en cine y
+                teatro. Desde el punto de vista de usabilidad y UX la navegación
+                es intuitiva y fluida tanto desto como móvil y las acciones
+                están bien jerarquizadas, lo cual facilita el descubrimiento del
+                contenido y mantiene al usuario inmerso la experiencia. Desde
+                enfoque crítico, el sitio representa al autor común, creador
+                visual que sabe integrar el arte y la tecnología aunque quizás
+                su estética tan cinematográfica podría limitar la accesibilidad
+                y la comprensión inmediata. Para algunos usuarios. En conjunto
+                la narrativa de esta página web es muy profesional y artística,
+                lo cual demuestra las habilidades técnicas y la sensibilidad
+                creativa para generar una experiencia visual memorable.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Estructura y contenido</h3>
+              <p>
+                Esta web está organizada en un esquema simple y claro, empezando
+                con un inicio que contiene un encabezado visual fuerte, con unas
+                tipografías grandes y un vídeo de fondo minimalista, el cual te
+                muestra la estética y el cuidado artístico de la persona. En el
+                menú, que está colocado al lateral izquierdo, se puede acceder a
+                las secciones de proyectos destacados e información sobre el
+                autor y el contacto. El flujo de navegación no es complicado y
+                las páginas no son muy largas. Por lo tanto no hay que hacer
+                muchos Croll menos en la página de los servicios que además
+                incluye unos efectos interesantes que vuelven a darle ese toque
+                artístico al portfolio. La jerarquía de títulos es coherente y
+                el contenido textual es muy conciso, donde sobre todo destacan
+                las imágenes y vídeos y las técnicas utilizadas por el creador
+                de esta web. La narrativa visual funciona como hilo, conductor y
+                el usuario entiende de inmediato que está frente a un por folio
+                profesional, centrado en proyectos audiovisuales con las
+                secciones justas para cumplir con el propósito de forma clara y
+                sin saturar de información.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Diseño visual e identidad</h3>
+              <p>
+                La identidad visual es coherente y potente, ya que la tipografía
+                utilizada es elegante legible y bastante llamativa en cuanto a
+                tamaños. La combinación de colores oscuros con toques rojos y
+                blancos generan el contraste necesario y dramatismo, que junto a
+                las imágenes y vídeos, refuerzan su estilo cinematográfico. El
+                estilo minimalista y el uso del espacio hacen que cada elemento
+                destaque sin saturar la pantalla, mientras que las animaciones
+                suaves aportan dinamismo sin distraer del contenido. La estética
+                global comunica profesionalidad y sensibilidad artística,
+                transmitiendo la esencia de su trabajo creativo y su enfoque
+                visual único
+              </p>
+              <div class="colors-container">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+              </div>
+            </div>
+            <div class="grid-block">
+              <h3>Interacción y creatividad</h3>
+              <p>
+                La web íntegra micro interacciones útiles y efectos de Scroll,
+                que enriquecen la experiencia de usuarios, sin complicarla la
+                navegación como animaciones de entrada de imagen o transiciones
+                de proyecto a proyecto. Todos estos elementos y recursos de
+                interacción no son solo creativos, sino que también refuerzan la
+                narrativa y se nota que se usaron con el objetivo de reforzar la
+                identidad del creador. Esta creatividad se refleja en cómo
+                combina vídeo fotografía y diseño minimalista para contar su
+                historia, haciendo que explorar la web sea una experiencia
+                inmersiva donde cada interacción, suma valor y refuerza su
+                mensaje artístico.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Usabilidad y accesibilidad</h3>
+              <p>
+                La navegación es intuitiva con un menú sencillo y visible.
+                Además, los tiempos de carga son razonables y la adaptabilidad
+                está completa a los distintos dispositivos móviles. Los
+                elementos interactivos responden correctamente y la experiencia
+                general es clara y directa. Además hay un contraste suficiente
+                en los elementos y ya que los vídeos son tan minimalistas,
+                resulta ser una web posiblemente accesible para un público muy
+                amplio.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Valoración por excelencia</h3>
+              <p>
+                El diseño visual sobresale por encima de todo, destacando la
+                coherencia, el estilo y la fuerza estética la usabilidad es
+                buena, aunque podría pulirse un poco más la accesibilidad. La
+                creatividad es muy alta por la narrativa visual y el uso de
+                distintos tipos de multimedia integrado el contenido es
+                relevante y conciso y logra comunicar la propuesta profesional
+                del autor. En conjunto, el sitio logra un equilibrio sólido
+                entre forma, función y mensaje cumpliendo con los estándares de
+                excelencia que valorarían premios como Awwwards o Webby en sus
+                distintas categorías.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Conclusiones y aprendizajes</h3>
+              <p>
+                La web de Roman Jean-Elie demuestra común por folio, puede
+                transmitir profesionalidad y sensibilidad artística, al mismo
+                tiempo, usando una narrativa visual y un diseño minimalista muy
+                personalizado para guiar al usuario. Esta web enseña la
+                importancia de alinear la estética, la interacción y la
+                estructura del contenido para generar una experiencia inmersiva.
+                Analizar esta web permite comprender como cada detalle.
+                Contribuye a construir una identidad profesional, memorable y
+                efectiva.
+              </p>
             </div>
           </div>
-          <div class="grid-block">
-            <h3>Interacción y creatividad</h3>
-            <p>La web íntegra micro interacciones útiles y efectos de Scroll, que enriquecen la experiencia de usuarios, sin complicarla la navegación como animaciones de entrada de imagen o transiciones de proyecto a proyecto. Todos estos elementos y recursos de interacción no son solo creativos, sino que también refuerzan la narrativa y se nota que se usaron con el objetivo de reforzar la identidad del creador. Esta creatividad se refleja en cómo combina vídeo fotografía y diseño minimalista para contar su historia, haciendo que explorar la web sea una experiencia inmersiva donde cada interacción, suma valor y refuerza su mensaje artístico.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Usabilidad y accesibilidad</h3>
-            <p>La navegación es intuitiva con un menú sencillo y visible. Además, los tiempos de carga son razonables y la adaptabilidad está completa a los distintos dispositivos móviles. Los elementos interactivos responden correctamente y la experiencia general es clara y directa. Además hay un contraste suficiente en los elementos y ya que los vídeos son tan minimalistas, resulta ser una web posiblemente accesible para un público muy amplio.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Valoración por excelencia</h3>
-            <p>El diseño visual sobresale por encima de todo, destacando la coherencia, el estilo y la fuerza estética la usabilidad es buena, aunque podría pulirse un poco más la accesibilidad. La creatividad es muy alta por la narrativa visual y el uso de distintos tipos de multimedia integrado el contenido es relevante y conciso y logra comunicar la propuesta profesional del autor. En conjunto, el sitio logra un equilibrio sólido entre forma, función y mensaje cumpliendo con los estándares de excelencia que valorarían premios como Awwwards o Webby en sus distintas categorías.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Conclusiones y aprendizajes</h3>
-            <p>La web de Roman Jean-Elie demuestra común por folio, puede transmitir profesionalidad y sensibilidad artística, al mismo tiempo, usando una narrativa visual y un diseño minimalista muy personalizado para guiar al usuario. Esta web enseña la importancia de alinear la estética, la interacción y la estructura del contenido para generar una experiencia inmersiva. Analizar esta web permite comprender como cada detalle. Contribuye a construir una identidad profesional, memorable y efectiva.</p>
-          </div>
-      </div>
-      <!-- ===== GALERÍA DE IMÁGENES ===== -->
-      <div class="image-gallery">
-        <h2>Galería de imágenes</h2>
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="./assets/img/roman-cap1.png" alt="Referencia 1">
-            <p>Menú lateral de proyectos con efectos en scroll</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/roman-cap2.png" alt="Referencia 2">
-            <p>Descripción de un proyecto </p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/roman-cap3.png" alt="Referencia 3">
-            <p>Sección de About con tipografía enorme</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/roman-cap4.png" alt="Referencia 4">
-            <p>Integración equilibrada entre imagen y texto</p>
-          </div>
-        </div>
-      </div>
-  </div>
-
-  <!-- WEB 2 -->
-  <div class="analysis-container" id="web2">
-        <!-- Columna izquierda -->
-        <aside class="analysis-info" >
-          <p class="subtitle-uppercase">WEB 2</p>
-          <h2 class="site-title">Don’t Board Me</h2>
-
-          <div class="tags">
-            <span class="tag active">Servicios</span>
-            <span class="tag">Ilustración</span>
-            <span class="tag">Animaciones</span>
-          </div>
-
-          <div class="text-block">
-            <h3>Descripción</h3>
-            <p>Se trata de una web de servicios de cuidado y paseo de perros con un fuerte enfoque creativo, ilustrativo y experiencia interactiva. Este sitio está galardonado en <a href="https://dontboardme.com/">Awwwwards</a> como "Site of the day" (SOTD).</p>
-        </aside>
-
-        <!-- Columna derecha: imagen de la web -->
-        <figure class="site-image">
-          <img src="./assets/img/dontboardme.png" alt="Captura del sitio we Dont board me" />
-        </figure>
-      </div>
-
-      <div class="info-grid">
-        <div class="grid-container">
-          <div class="grid-block">
-            <h3>Impresión inicial</h3>
-            <p>Al entrar a esta web, lo primero que llama la atención son sobre todo las animaciones e ilustraciones que te guían a lo largo de la web. También tiene un tono desenfadado pero profesional, ya que hace uso de unas ilustraciones muy cuidadas y muy definidas, que transmiten confianza y diversión. Resulta interesante la originalidad y la propuesta tan cuidadosa que tienen para un servicio que normalmente no se asocia con un diseño tan atrevido, lo cual convierten en esta página en una web muy divertida de navegar. </p>
-          </div>
-          <div class="grid-block">
-            <h3>Enfoque teórico</h3>
-            <p>Este análisis sobre todo, estará enfocado desde tres grandes perspectivas que son la visual y semiótica otra de usabilidad y una crítica contextual. En cuanto a lo visual se interpretará como los recursos (ilustraciones de perros, tipografías y colores vivos) comunican una identidad amigable, creativa y a la vez moderna para un servicio bastante poco demandado. En cuanto a la usabilidad, se evaluarán los flujos, la claridad de servicio, la navegación y si la experiencia resulta intuitiva. Finalmente, desde un enfoque crítico, se reflexionará sobre el tipo de público al que se dirige la web, las expectativas que genera y las limitaciones que tiene. Por lo general, la web no solo cumple una función práctica, sino que transmite una experiencia y una identidad bien definidas. Su mensaje principal es que pasear a un perro puede ser algo más que un servicio, esto es, una experiencia cuidada, creativa y personalizada.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Estructura y contenido</h3>
-            <p>La web parece construida mayormente como “one-page” con secciones que fluyen con un efecto aplicado al hacer scroll que da una sensación de fluidez suave. La información está bien jerarquizada, primero con un hero animado, luego la explicación de servicios, el proceso, los precios y el contacto. La navegación es clara y lineal. En cuanto al storytelling, tiene un recorrido visual que guía al usuario desde la propuesta de valor hasta la acción (“Book now”), por lo tanto el flujo está bien estructurado. La lectura también es fluida con encabezados que atraen la atención y un ritmo visual que se modula con ilustraciones grandes, efectos de scroll y bloques de texto. Esta organización favorece que el usuario entienda el servicio sin mucho esfuerzo.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Diseño visual e identidad</h3>
-            <p>La paleta de colores está formada por tonos vivos como rojos, rosas y blancos aplicados a lo largo de toda la web y las ilustraciones de personajes y perros estilizados. La jerarquía visual es muy clara, pues se hace uso de muchos grandes títulos e ilustraciones como foco y alrededor espacios para que respire la web y no esté sobrecargada. La tipografía también aporta valor a la jerarquía visual, pues para los títulos se usan tipografías más impactantes en Bold y para los textos unas tipografías más neutras. El estilo gráfico es coherente, ya que se hace uso de ilustraciones personalizadas y animaciones navegando con el cursor junto a microinteracciones y esto también aporta  un efecto wow que hace que esta web no parezca un sitio web estándar de servicios, sino que un lugar premium y creativo.</p>
-            <div class="colors-container">
-              <div class="circle4"></div>
-              <div class="circle5"></div>
-              <div class="circle6"></div>
+          <!-- ===== GALERÍA DE IMÁGENES ===== -->
+          <div class="image-gallery">
+            <h2>Galería de imágenes</h2>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="./assets/img/roman-cap1.png" alt="Referencia 1" />
+                <p>Menú lateral de proyectos con efectos en scroll</p>
+              </div>
+              <div class="gallery-item">
+                <img src="./assets/img/roman-cap2.png" alt="Referencia 2" />
+                <p>Descripción de un proyecto</p>
+              </div>
+              <div class="gallery-item">
+                <img src="./assets/img/roman-cap3.png" alt="Referencia 3" />
+                <p>Sección de About con tipografía enorme</p>
+              </div>
+              <div class="gallery-item">
+                <img src="./assets/img/roman-cap4.png" alt="Referencia 4" />
+                <p>Integración equilibrada entre imagen y texto</p>
+              </div>
             </div>
           </div>
-          <div class="grid-block">
-            <h3>Interacción y creatividad</h3>
-            <p>El sitio hace un buen uso de micro interacciones usando ilustraciones que se mueven efectos al hacer Scroll, el cursor en forma de pelota animaciones automatizadas. Lo interesante de esta página es como a través del Scroll se va revelando contenido y animaciones que sorprenden, pero sin saturar la navegación. La web es muy original y hace un buen equilibrio entre creatividad y claridad. Otro aspecto a mencionar es el botón de “Book Now" para reservar el servicio que te lleva a un formulario y hace que el usuario participe activamente y la navegación sea interactiva lo cual mejora el engagement.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Usabilidad y accesibilidad</h3>
-            <p>La navegación de esta web es intuitiva y está bien señalizada, sin embargo, el menú desaparece al hacer Scroll, lo cual podría dificultar un poco el flujo de navegación al usuario. En cuanto a adaptabilidad muestra errores en versión móvil ya que algunas secciones o títulos desaparecen. Además debido al diseño creativo puede que ciertas animaciones ralenticen la carga o distraigan por lo tanto, sería importante verificar si están optimizadas. Aunque la web sea visualmente muy potente y creativa no es accesible del todo, pues no todos los usuarios podrían apreciar bien las animaciones o las ilustraciones sobre todo con mucho texto superpuesto. Además, podrían mejorarse el contrast ratio. En general, la experiencia fluida pero exige de un repaso de accesibilidad y usabilidad para que pueda ser bien utilizado por todos los públicos y en todas las pantallas.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Valoración por excelencia</h3>
-            <p>Lo que hace que esta web destaque es su equilibrio entre diseño narrativa y experiencia, pues no solo se limita a informar, sino que también involucra al usuario en una historia visual, coherente y optimista, donde cada detalle, desde las micro interacciones hasta las ilustraciones, refuerzan una identidad fresca y cercana al usuario. En cuanto a la navegación, demuestra que tiene un alto nivel de control creativo y técnico sin embargo, habría que revisar la accesibilidad y la usabilidad para poderse. Visualizar en todo tipo de pantallas.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Conclusiones y aprendizajes</h3>
-            <p>En resumen, esta web muestra como un servicio tan común como pasear a perros, puede destacar gracias a un diseño visual, muy cuidado y una narrativa creativa. Entre sus puntos fuertes estarían su estilo gráfico memorable y consistente, la interacción fluida y una identidad muy potente. Como punto débil puede que su nivel de creatividad no sea tan fácil de entender para todos los públicos y que las animaciones exijan más recursos en algunos dispositivos. Lo que más puedo aprender de esta web es que en los servicios digitales, las visual y la identidad son tan importantes como la funcionalidad, porque aún con un diseño tan expresivo se tiene que mantener una navegación clara, siempre procurando una estética y usabilidad correcta. A nivel comunicativo la web transmite que cuidar de una mascota no es solo una tarea práctica sino una experiencia emocional y cercana. La únicas mejoras que propongo mejorar la adaptación a móviles, reforzar algunos contrastes y cuidar la accesibilidad para todo tipo de usuarios.</p>
-          </div>
-      </div>
-      <!-- ===== GALERÍA DE IMÁGENES ===== -->
-      <div class="image-gallery">
-        <h2>Galería de imágenes</h2>
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="./assets/img/board-cap1.png" alt="Referencia 1">
-            <p>Portada inicial con cursor en forma de pelota</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/Captura de pantalla 2025-10-21 211146.png" alt="Referencia 2">
-            <p>Ilustraciones en cards</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/Captura de pantalla 2025-10-21 211317.png" alt="Referencia 3">
-            <p>Dinamismo y movimiento del contenido</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/Captura de pantalla 2025-10-21 211209.png" alt="Referencia 4">
-            <p>Formulario para contratar servicio</p>
-          </div>
         </div>
-      </div>
-</div>
 
-<!-- WEB 3 -->
-  <div class="analysis-container" id="web3">
-        <!-- Columna izquierda -->
-       <aside class="analysis-info" >
-          <p class="subtitle-uppercase">WEB 3</p>
-          <h2 class="site-title">Relats</h2>
+        <!-- WEB 2 -->
+        <div class="analysis-container" id="web2">
+          <!-- Columna izquierda -->
+          <aside class="analysis-info">
+            <p class="subtitle-uppercase">WEB 2</p>
+            <h2 class="site-title">Don’t Board Me</h2>
 
-          <div class="tags">
-            <span class="tag active">Industrial</span>
-            <span class="tag">Renders</span>
-            <span class="tag">Animaciones</span>
-          </div>
+            <div class="tags">
+              <span class="tag active">Servicios</span>
+              <span class="tag">Ilustración</span>
+              <span class="tag">Animaciones</span>
+            </div>
 
-          <div class="text-block">
-            <h3>Descripción</h3>
-            <p>Esta web es una Landing web corporativa B2B centrada en presentar una línea de productos técnicos de alto rendimiento. Un proyecto reciente del sector de innovación industrial y movilidad eléctrica, que ha aparecido como proyecto web destacado en la web de <a href="https://www.awwwards.com/sites/relats">Awwwwards</a>.</p>
-        </aside>
+            <div class="text-block">
+              <h3>Descripción</h3>
+              <p>
+                Se trata de una web de servicios de cuidado y paseo de perros
+                con un fuerte enfoque creativo, ilustrativo y experiencia
+                interactiva. Este sitio está galardonado en
+                <a href="https://dontboardme.com/">Awwwwards</a> como "Site of
+                the day" (SOTD).
+              </p>
+            </div>
+          </aside>
 
-        <!-- Columna derecha: imagen de la web -->
-        <figure class="site-image">
-          <img src="./assets/img/relats.png" alt="Captura del sitio relats" />
-        </figure>
-      </div>
+          <!-- Columna derecha: imagen de la web -->
+          <figure class="site-image">
+            <img
+              src="./assets/img/dontboardme.png"
+              alt="Captura del sitio we Dont board me"
+            />
+          </figure>
+        </div>
 
-      <div class="info-grid">
-        <div class="grid-container">
-          <div class="grid-block">
-            <h3>Impresión inicial</h3>
-            <p>La primera impresión al entrar a la web es la de encontrarse algo muy pulido y contemporáneo y muy moderno para el sector al que se dedica la identidad. Está bien representada con el uso de colores como el naranja y los amarillos que transmiten energía y sofisticación y electricidad desde el primer Scroll, se percibe una narrativa visual coherente con animaciones que aportan dinamismo al recorrido y aunque el contenido es técnico la presentación es visualmente atractiva, lo cual refuerza la idea de un producto premium. </p>
-          </div>
-          <div class="grid-block">
-            <h3>Enfoque teórico</h3>
-            <p>Desde el punto de vista visual se observa como los recursos construyen una identidad sólida, tecnológica y de precisión. En cuanto a usabilidad la web, destaca por su estructura clara y lineal pero sin embargo, tantos recursos y efectos, podrían resultar saturantes. Desde una perspectiva crítica, el sitio está claramente dirigido a un público profesional y especializado, priorizando la exactitud y la innovación, pero dejando de lado la accesibilidad y la comprensión para públicos más amplios. Este enfoque puede ser desfavorable, pero también dejan entender que la web no es solo una herramienta comercial, sino un discurso visual que quiere traducir la excelencia técnica en una experiencia estética.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Estructura y contenido</h3>
-            <p>La estructura es muy lineal sin embargo, no es tan fluida ya que algunas animaciones se atascan al hacer Scroll. La navegación consiste en un desplazamiento completamente vertical y cada bloque cumple con una función narrativa. Primero se introduce la marca. Luego se presentan los valores y finalmente las soluciones y tecnologías. Sin embargo, se presentan muchas secciones dentro de una misma página y junto a la inclusión de animaciones y efectos especiales. La información podría pasar desapercibida o el usuario podría saturarse. En cuanto a la jerarquía tipográfica, esta sí es clara y ayuda a mantener una lectura intuitiva.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Diseño visual e identidad</h3>
-            <p>El fondo negro, combinado con tonos cálidos y detalles metálicos, refuerzan, la la sensación de solidez y precisión tecnológica que quiere transmitir su identidad visual. Las tipografías son limpias, modernas y bien espaciadas, lo que aporta profesionalidad. Los elementos visuales como fotografías renders y micro animaciones. Tienen una calidad muy alta lo que refuerza la identidad premium del producto. Se nota que la web fue diseñada con intención y cuidado, ya que existe una coherencia gráfica entre cada bloque que logra mantener la atención del usuario y demuestra que es una marca que sabe exactamente cómo quiere mostrarse.</p>
-            <div class="colors-container">
-              <div class="circle7"></div>
-              <div class="circle8"></div>
-              <div class="circle9"></div>
+        <div class="info-grid">
+          <div class="grid-container">
+            <div class="grid-block">
+              <h3>Impresión inicial</h3>
+              <p>
+                Al entrar a esta web, lo primero que llama la atención son sobre
+                todo las animaciones e ilustraciones que te guían a lo largo de
+                la web. También tiene un tono desenfadado pero profesional, ya
+                que hace uso de unas ilustraciones muy cuidadas y muy definidas,
+                que transmiten confianza y diversión. Resulta interesante la
+                originalidad y la propuesta tan cuidadosa que tienen para un
+                servicio que normalmente no se asocia con un diseño tan
+                atrevido, lo cual convierten en esta página en una web muy
+                divertida de navegar.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Enfoque teórico</h3>
+              <p>
+                Este análisis sobre todo, estará enfocado desde tres grandes
+                perspectivas que son la visual y semiótica otra de usabilidad y
+                una crítica contextual. En cuanto a lo visual se interpretará
+                como los recursos (ilustraciones de perros, tipografías y
+                colores vivos) comunican una identidad amigable, creativa y a la
+                vez moderna para un servicio bastante poco demandado. En cuanto
+                a la usabilidad, se evaluarán los flujos, la claridad de
+                servicio, la navegación y si la experiencia resulta intuitiva.
+                Finalmente, desde un enfoque crítico, se reflexionará sobre el
+                tipo de público al que se dirige la web, las expectativas que
+                genera y las limitaciones que tiene. Por lo general, la web no
+                solo cumple una función práctica, sino que transmite una
+                experiencia y una identidad bien definidas. Su mensaje principal
+                es que pasear a un perro puede ser algo más que un servicio,
+                esto es, una experiencia cuidada, creativa y personalizada.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Estructura y contenido</h3>
+              <p>
+                La web parece construida mayormente como “one-page” con
+                secciones que fluyen con un efecto aplicado al hacer scroll que
+                da una sensación de fluidez suave. La información está bien
+                jerarquizada, primero con un hero animado, luego la explicación
+                de servicios, el proceso, los precios y el contacto. La
+                navegación es clara y lineal. En cuanto al storytelling, tiene
+                un recorrido visual que guía al usuario desde la propuesta de
+                valor hasta la acción (“Book now”), por lo tanto el flujo está
+                bien estructurado. La lectura también es fluida con encabezados
+                que atraen la atención y un ritmo visual que se modula con
+                ilustraciones grandes, efectos de scroll y bloques de texto.
+                Esta organización favorece que el usuario entienda el servicio
+                sin mucho esfuerzo.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Diseño visual e identidad</h3>
+              <p>
+                La paleta de colores está formada por tonos vivos como rojos,
+                rosas y blancos aplicados a lo largo de toda la web y las
+                ilustraciones de personajes y perros estilizados. La jerarquía
+                visual es muy clara, pues se hace uso de muchos grandes títulos
+                e ilustraciones como foco y alrededor espacios para que respire
+                la web y no esté sobrecargada. La tipografía también aporta
+                valor a la jerarquía visual, pues para los títulos se usan
+                tipografías más impactantes en Bold y para los textos unas
+                tipografías más neutras. El estilo gráfico es coherente, ya que
+                se hace uso de ilustraciones personalizadas y animaciones
+                navegando con el cursor junto a microinteracciones y esto
+                también aporta un efecto wow que hace que esta web no parezca un
+                sitio web estándar de servicios, sino que un lugar premium y
+                creativo.
+              </p>
+              <div class="colors-container">
+                <div class="circle4"></div>
+                <div class="circle5"></div>
+                <div class="circle6"></div>
+              </div>
+            </div>
+            <div class="grid-block">
+              <h3>Interacción y creatividad</h3>
+              <p>
+                El sitio hace un buen uso de micro interacciones usando
+                ilustraciones que se mueven efectos al hacer Scroll, el cursor
+                en forma de pelota animaciones automatizadas. Lo interesante de
+                esta página es como a través del Scroll se va revelando
+                contenido y animaciones que sorprenden, pero sin saturar la
+                navegación. La web es muy original y hace un buen equilibrio
+                entre creatividad y claridad. Otro aspecto a mencionar es el
+                botón de “Book Now" para reservar el servicio que te lleva a un
+                formulario y hace que el usuario participe activamente y la
+                navegación sea interactiva lo cual mejora el engagement.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Usabilidad y accesibilidad</h3>
+              <p>
+                La navegación de esta web es intuitiva y está bien señalizada,
+                sin embargo, el menú desaparece al hacer Scroll, lo cual podría
+                dificultar un poco el flujo de navegación al usuario. En cuanto
+                a adaptabilidad muestra errores en versión móvil ya que algunas
+                secciones o títulos desaparecen. Además debido al diseño
+                creativo puede que ciertas animaciones ralenticen la carga o
+                distraigan por lo tanto, sería importante verificar si están
+                optimizadas. Aunque la web sea visualmente muy potente y
+                creativa no es accesible del todo, pues no todos los usuarios
+                podrían apreciar bien las animaciones o las ilustraciones sobre
+                todo con mucho texto superpuesto. Además, podrían mejorarse el
+                contrast ratio. En general, la experiencia fluida pero exige de
+                un repaso de accesibilidad y usabilidad para que pueda ser bien
+                utilizado por todos los públicos y en todas las pantallas.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Valoración por excelencia</h3>
+              <p>
+                Lo que hace que esta web destaque es su equilibrio entre diseño
+                narrativa y experiencia, pues no solo se limita a informar, sino
+                que también involucra al usuario en una historia visual,
+                coherente y optimista, donde cada detalle, desde las micro
+                interacciones hasta las ilustraciones, refuerzan una identidad
+                fresca y cercana al usuario. En cuanto a la navegación,
+                demuestra que tiene un alto nivel de control creativo y técnico
+                sin embargo, habría que revisar la accesibilidad y la usabilidad
+                para poderse. Visualizar en todo tipo de pantallas.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Conclusiones y aprendizajes</h3>
+              <p>
+                En resumen, esta web muestra como un servicio tan común como
+                pasear a perros, puede destacar gracias a un diseño visual, muy
+                cuidado y una narrativa creativa. Entre sus puntos fuertes
+                estarían su estilo gráfico memorable y consistente, la
+                interacción fluida y una identidad muy potente. Como punto débil
+                puede que su nivel de creatividad no sea tan fácil de entender
+                para todos los públicos y que las animaciones exijan más
+                recursos en algunos dispositivos. Lo que más puedo aprender de
+                esta web es que en los servicios digitales, las visual y la
+                identidad son tan importantes como la funcionalidad, porque aún
+                con un diseño tan expresivo se tiene que mantener una navegación
+                clara, siempre procurando una estética y usabilidad correcta. A
+                nivel comunicativo la web transmite que cuidar de una mascota no
+                es solo una tarea práctica sino una experiencia emocional y
+                cercana. La únicas mejoras que propongo mejorar la adaptación a
+                móviles, reforzar algunos contrastes y cuidar la accesibilidad
+                para todo tipo de usuarios.
+              </p>
             </div>
           </div>
-          <div class="grid-block">
-            <h3>Interacción y creatividad</h3>
-            <p>A nivel de interacción es justo el necesario, pues no buscas sorprender con efectos excesivos, sino acompañar la navegación con suavidad, las animaciones de Scroll y los cambios útiles de iluminación o color, aportan dinamismo y sensación de modernidad. Sin embargo, la combinación de estas animaciones junto a la información, pueden distraer un poco del contenido, pero probablemente aporte a la sensación y posicionamiento de esta empresa. Además, en un contexto industrial, este tipo de micro interacciones son clave para humanizar la experiencia digital y hacerla más cercana. Sin duda es una web muy creativa que logra que un tema industrial parezca inspirador y actual algo poco habitual en este tipo de webs.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Usabilidad y accesibilidad</h3>
-            <p>En cuanto a usabilidad, esta web, se adapta a todo tipo de pantallas perfectamente, manteniendo todos los textos legibles y el contenido en su correcto lugar. Además cumple con los principios básicos como consistencia claridad y orientación visual. Sin embargo, en cuanto a accesibilidad podría mejorarse mucho más, ya que hay problemas de contraste en las tipografías y en las cards donde se usan el efecto borroso con texto blanco encima. Hay lugares donde la tipografía es totalmente ilegible y aunque estéticamente encaje muy bien este efecto debería pasar las leyes de accesibilidad para poder ser útil para todos los públicos.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Valoración por excelencia</h3>
-            <p>Esta web sobresale casi todos los criterios de excelencia. A nivel visual logra un equilibrio entre impacto y funcionalidad, ya que el diseño no se se ve bien, sino que también comunica con intención y coherencia. La identidad está muy bien definida y transmite tecnología, precisión y fiabilidad, algo que encaja perfectamente con su propósito industrial. En cuanto a usabilidad ofrece una navegación limpia y lineal, aunque el uso de ciertos estilos gráficos podrían afectar a la accesibilidad de ciertos contextos. La creatividad de esta web destaca dentro del sector técnico, porque logra que un producto industrial parezca sofisticado y deseable sin parecer pesado. En cuanto al contenido cumple con una información clara y una narrativa visual bien integrada. En conjunto se podría decir que se trata de un proyecto con una visión clara de diseño y marca que consigue diferenciarse por su elegancia y su dominio del lenguaje visual tecnológico.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Conclusiones y aprendizajes</h3>
-            <p>En resumen Relats demuestra que una web industrial puede ser tan atractiva y cuidada como una página de productos de consumo. Además, convierte la navegación de la web en una experiencia inmersiva, bien pensada y destacable sobre otras webs de sectores industriales. Sus mayores fortalezas son la coherencia visual, la calidad estética y la claridad con la que comunica una marca tecnológica de alto nivel. Sus debilidades podrían estar en la accesibilidad y la comprensión por parte de públicos no especializados en el tema.  Como aprendizaje, este caso demuestra que la experiencia digital y la identidad visual son importantes para comunicar confianza, innovación y profesionalidad y que todo esto puede aportar a la decisión de compra de un producto. Desde un punto de vista cultural esta web es un claro ejemplo de cómo redefinir la percepción de la tecnología industrial porque logra convertir lo técnico en algo aspiracional.</p>
-          </div>
-      </div>
-      <!-- ===== GALERÍA DE IMÁGENES ===== -->
-      <div class="image-gallery">
-        <h2>Galería de imágenes</h2>
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="./assets/img/relats-cap1.png" alt="Referencia 1">
-            <p>Vista de Overview</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/relats-cap2.png" alt="Referencia 2">
-            <p>Efectos de glassmorphism</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/relats-cap3.png" alt="Referencia 3">
-            <p>Fotografías con grandes títulos</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/relats-cap4.png" alt="Referencia 4">
-            <p>Llamada al contacto con render 3D</p>
-          </div>
-        </div>
-      </div>
-</div>
-
-
-<!-- WEB 4 -->
-  <div class="analysis-container" id="web4">
-        <!-- Columna izquierda -->
-        <aside class="analysis-info" >
-          <p class="subtitle-uppercase">WEB 4</p>
-          <h2 class="site-title">David Alaba</h2>
-
-          <div class="tags">
-            <span class="tag active">Lifestyle</span>
-            <span class="tag">Tipografía</span>
-            <span class="tag">Visual</span>
-          </div>
-
-          <div class="text-block">
-            <h3>Descripción</h3>
-            <p>Esta web es una web personal de David Alaba, un futbolista del Real Madrid, donde recoge información sobre su vida, su fundación y el contacto y es ganadora de los <a href="https://www.awwwards.com/honors/winners#typography">Honor Awwwards</a> por tipografía.</p>
-        </aside>
-
-        <!-- Columna derecha: imagen de la web -->
-        <figure class="site-image">
-          <img src="./assets/img/alaba-homepage.png" alt="Captura del sitio relats" />
-        </figure>
-      </div>
-
-      <div class="info-grid">
-        <div class="grid-container">
-          <div class="grid-block">
-            <h3>Impresión inicial</h3>
-            <p>Nada más entrar la web de David Alaba, impacta por su fuerza visual y el tono elegante a lo largo de toda la navegación, empezando con un vídeo a pantalla completa con una tipografía recortada que deja ver el vídeo y muchas fotografías que muestran a David títulos grandes para destacar su persona. La sensación general es de una marca personal, bien construida que combinan la estética del deporte con la moda y el lifestyle. Se percibe profesional, aspiración y con una ejecución técnica impecable que engancha visualmente desde el inicio.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Enfoque teórico</h3>
-            <p>En el plano visual se interpreta como la composición, los contrastes y la tipografía en mayúsculas de fuerza en una identidad fuerte moderna y premium, que quieren reflejar la personalidad de David. Desde las habilidades se analiza la claridad del recorrido, la jerarquía de contenidos y la fluidez de navegación. Finalmente, en el enfoque crítico se reflexiona sobre la construcción del personaje o sea en cómo el deportista se presenta no solo como atleta, sino como una figura pública con estilo y visión. Esta web no sólo comunica los logros de esta persona, sino que crea una historia visual que mezcla, éxito, elegancia y autenticidad.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Estructura y contenido</h3>
-            <p>La estructura es simple y muy clara, ya que se ordenan las secciones en un menú superior y cada sección se navega de forma vertical y con fluidez gracias a efectos de Scroll y transiciones suaves. Las secciones en las que se divide esta web son la homepage, el recorrido del futbolista, su propia presentación, su fundación, una galería de fotos, prensa y contacto. El contenido es breve, pero cada palabra y elemento visual son clave para reforzar la narrativa de marca personal. Todo está pensado para que el usuario reciba la información de manera intuitiva y sin distracciones.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Diseño visual e identidad</h3>
-            <p>El diseño destaca por su elegancia y minimalismo.  La paleta se basa en negro, blanco y dorado. Lo que proyecta una imagen sofisticada son las fotografías y vídeos en alta resolución. Se mezclan con tipografías gruesas y limpias que aportan presencia. Y además no hay exceso de elementos porque se usa el vacío y el ritmo visual para crear una atmósfera de lujo y profesionalismo. La marca se siente coherente y sólida y no pretende comunicar que David Alaba es solo un futbolista, sino que también una figura global con una visión estética definida.</p>
-            <div class="colors-container">
-              <div class="circle10"></div>
-              <div class="circle11"></div>
-              <div class="circle12"></div>
+          <!-- ===== GALERÍA DE IMÁGENES ===== -->
+          <div class="image-gallery">
+            <h2>Galería de imágenes</h2>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="./assets/img/board-cap1.png" alt="Referencia 1" />
+                <p>Portada inicial con cursor en forma de pelota</p>
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="./assets/img/Captura de pantalla 2025-10-21 211146.png"
+                  alt="Referencia 2"
+                />
+                <p>Ilustraciones en cards</p>
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="./assets/img/Captura de pantalla 2025-10-21 211317.png"
+                  alt="Referencia 3"
+                />
+                <p>Dinamismo y movimiento del contenido</p>
+              </div>
+              <div class="gallery-item">
+                <img
+                  src="./assets/img/Captura de pantalla 2025-10-21 211209.png"
+                  alt="Referencia 4"
+                />
+                <p>Formulario para contratar servicio</p>
+              </div>
             </div>
           </div>
-          <div class="grid-block">
-            <h3>Interacción y creatividad</h3>
-            <p>El sitio mantiene un equilibrio entre el dinamismo y el control, ya que se hace uso de transiciones suaves, los vídeos de fondo y las animaciones sutiles aportan dinamismo sin saturar. Tampoco hay un exceso de microacciones, pero si hay un trabajo de detalle en cada movimiento. Esto se puede observar en el Scroll los cambios de foco y la aparición de textos que aportan a la narrativa visual.</p>
+        </div>
+
+        <!-- WEB 3 -->
+        <div class="analysis-container" id="web3">
+          <!-- Columna izquierda -->
+          <aside class="analysis-info">
+            <p class="subtitle-uppercase">WEB 3</p>
+            <h2 class="site-title">Relats</h2>
+
+            <div class="tags">
+              <span class="tag active">Industrial</span>
+              <span class="tag">Renders</span>
+              <span class="tag">Animaciones</span>
+            </div>
+
+            <div class="text-block">
+              <h3>Descripción</h3>
+              <p>
+                Esta web es una Landing web corporativa B2B centrada en
+                presentar una línea de productos técnicos de alto rendimiento.
+                Un proyecto reciente del sector de innovación industrial y
+                movilidad eléctrica, que ha aparecido como proyecto web
+                destacado en la web de
+                <a href="https://www.awwwards.com/sites/relats">Awwwwards</a>.
+              </p>
+            </div>
+          </aside>
+
+          <!-- Columna derecha: imagen de la web -->
+          <figure class="site-image">
+            <img src="./assets/img/relats.png" alt="Captura del sitio relats" />
+          </figure>
+        </div>
+
+        <div class="info-grid">
+          <div class="grid-container">
+            <div class="grid-block">
+              <h3>Impresión inicial</h3>
+              <p>
+                La primera impresión al entrar a la web es la de encontrarse
+                algo muy pulido y contemporáneo y muy moderno para el sector al
+                que se dedica la identidad. Está bien representada con el uso de
+                colores como el naranja y los amarillos que transmiten energía y
+                sofisticación y electricidad desde el primer Scroll, se percibe
+                una narrativa visual coherente con animaciones que aportan
+                dinamismo al recorrido y aunque el contenido es técnico la
+                presentación es visualmente atractiva, lo cual refuerza la idea
+                de un producto premium.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Enfoque teórico</h3>
+              <p>
+                Desde el punto de vista visual se observa como los recursos
+                construyen una identidad sólida, tecnológica y de precisión. En
+                cuanto a usabilidad la web, destaca por su estructura clara y
+                lineal pero sin embargo, tantos recursos y efectos, podrían
+                resultar saturantes. Desde una perspectiva crítica, el sitio
+                está claramente dirigido a un público profesional y
+                especializado, priorizando la exactitud y la innovación, pero
+                dejando de lado la accesibilidad y la comprensión para públicos
+                más amplios. Este enfoque puede ser desfavorable, pero también
+                dejan entender que la web no es solo una herramienta comercial,
+                sino un discurso visual que quiere traducir la excelencia
+                técnica en una experiencia estética.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Estructura y contenido</h3>
+              <p>
+                La estructura es muy lineal sin embargo, no es tan fluida ya que
+                algunas animaciones se atascan al hacer Scroll. La navegación
+                consiste en un desplazamiento completamente vertical y cada
+                bloque cumple con una función narrativa. Primero se introduce la
+                marca. Luego se presentan los valores y finalmente las
+                soluciones y tecnologías. Sin embargo, se presentan muchas
+                secciones dentro de una misma página y junto a la inclusión de
+                animaciones y efectos especiales. La información podría pasar
+                desapercibida o el usuario podría saturarse. En cuanto a la
+                jerarquía tipográfica, esta sí es clara y ayuda a mantener una
+                lectura intuitiva.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Diseño visual e identidad</h3>
+              <p>
+                El fondo negro, combinado con tonos cálidos y detalles
+                metálicos, refuerzan, la la sensación de solidez y precisión
+                tecnológica que quiere transmitir su identidad visual. Las
+                tipografías son limpias, modernas y bien espaciadas, lo que
+                aporta profesionalidad. Los elementos visuales como fotografías
+                renders y micro animaciones. Tienen una calidad muy alta lo que
+                refuerza la identidad premium del producto. Se nota que la web
+                fue diseñada con intención y cuidado, ya que existe una
+                coherencia gráfica entre cada bloque que logra mantener la
+                atención del usuario y demuestra que es una marca que sabe
+                exactamente cómo quiere mostrarse.
+              </p>
+              <div class="colors-container">
+                <div class="circle7"></div>
+                <div class="circle8"></div>
+                <div class="circle9"></div>
+              </div>
+            </div>
+            <div class="grid-block">
+              <h3>Interacción y creatividad</h3>
+              <p>
+                A nivel de interacción es justo el necesario, pues no buscas
+                sorprender con efectos excesivos, sino acompañar la navegación
+                con suavidad, las animaciones de Scroll y los cambios útiles de
+                iluminación o color, aportan dinamismo y sensación de
+                modernidad. Sin embargo, la combinación de estas animaciones
+                junto a la información, pueden distraer un poco del contenido,
+                pero probablemente aporte a la sensación y posicionamiento de
+                esta empresa. Además, en un contexto industrial, este tipo de
+                micro interacciones son clave para humanizar la experiencia
+                digital y hacerla más cercana. Sin duda es una web muy creativa
+                que logra que un tema industrial parezca inspirador y actual
+                algo poco habitual en este tipo de webs.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Usabilidad y accesibilidad</h3>
+              <p>
+                En cuanto a usabilidad, esta web, se adapta a todo tipo de
+                pantallas perfectamente, manteniendo todos los textos legibles y
+                el contenido en su correcto lugar. Además cumple con los
+                principios básicos como consistencia claridad y orientación
+                visual. Sin embargo, en cuanto a accesibilidad podría mejorarse
+                mucho más, ya que hay problemas de contraste en las tipografías
+                y en las cards donde se usan el efecto borroso con texto blanco
+                encima. Hay lugares donde la tipografía es totalmente ilegible y
+                aunque estéticamente encaje muy bien este efecto debería pasar
+                las leyes de accesibilidad para poder ser útil para todos los
+                públicos.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Valoración por excelencia</h3>
+              <p>
+                Esta web sobresale casi todos los criterios de excelencia. A
+                nivel visual logra un equilibrio entre impacto y funcionalidad,
+                ya que el diseño no se se ve bien, sino que también comunica con
+                intención y coherencia. La identidad está muy bien definida y
+                transmite tecnología, precisión y fiabilidad, algo que encaja
+                perfectamente con su propósito industrial. En cuanto a
+                usabilidad ofrece una navegación limpia y lineal, aunque el uso
+                de ciertos estilos gráficos podrían afectar a la accesibilidad
+                de ciertos contextos. La creatividad de esta web destaca dentro
+                del sector técnico, porque logra que un producto industrial
+                parezca sofisticado y deseable sin parecer pesado. En cuanto al
+                contenido cumple con una información clara y una narrativa
+                visual bien integrada. En conjunto se podría decir que se trata
+                de un proyecto con una visión clara de diseño y marca que
+                consigue diferenciarse por su elegancia y su dominio del
+                lenguaje visual tecnológico.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Conclusiones y aprendizajes</h3>
+              <p>
+                En resumen Relats demuestra que una web industrial puede ser tan
+                atractiva y cuidada como una página de productos de consumo.
+                Además, convierte la navegación de la web en una experiencia
+                inmersiva, bien pensada y destacable sobre otras webs de
+                sectores industriales. Sus mayores fortalezas son la coherencia
+                visual, la calidad estética y la claridad con la que comunica
+                una marca tecnológica de alto nivel. Sus debilidades podrían
+                estar en la accesibilidad y la comprensión por parte de públicos
+                no especializados en el tema. Como aprendizaje, este caso
+                demuestra que la experiencia digital y la identidad visual son
+                importantes para comunicar confianza, innovación y
+                profesionalidad y que todo esto puede aportar a la decisión de
+                compra de un producto. Desde un punto de vista cultural esta web
+                es un claro ejemplo de cómo redefinir la percepción de la
+                tecnología industrial porque logra convertir lo técnico en algo
+                aspiracional.
+              </p>
+            </div>
           </div>
-          <div class="grid-block">
-            <h3>Usabilidad y accesibilidad</h3>
-            <p>La navegación es intuitiva y está bien resuelta. El menú superior se mantiene visible, lo que facilita el desplazamiento entre secciones. En dispositivos móviles la adaptación es buena, aunque los videos pueden ralentizar la carga en conexiones lentas. En términos de accesibilidad, los contrastes son buenos y se hace uso de textos grandes y precisos, lo cual facilita la lectura. En general, la experiencia es fluida y cuidada, lo que demuestra un buen equilibrio entre estética y funcionalidad.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Valoración por excelencia</h3>
-            <p>La web de David Alaba cumple ampliamente con los criterios de excelencia pues tiene coherencia visual, dirección de arte, narrativa y experiencia de usuario. Cada elemento está alineado con la identidad de la marca y colocado con intención. A nivel técnico, demuestra control y solidez, con un acabado pulido y profesional. Lo más destacable es cómo logra transmitir una historia sin depender del texto y dejar hablar al diseño por sí mismo. Su punto fuerte es la consistencia estética y la forma en que proyecta profesionalidad de forma cercana para conectar con su audiencia. Está web es un ejemplo claro de cómo unir diseño, storytelling y tecnología para construir una marca personal impactante y emocionalmente potente.</p>
-          </div>
-          <div class="grid-block">
-            <h3>Conclusiones y aprendizajes</h3>
-            <p>En resumen, esta web es un gran ejemplo de cómo un diseño visual puede elevar la percepción de una marca personal. Sus puntos fuertes son su dirección de arte, su coherencia visual y la forma en que combina deporte y estilo con una narrativa clara. Como posibles mejoras, se podría optimizar el rendimiento móvil y ajustar ciertos aspectos de accesibilidad. Lo que más se puede aprender de este sitio es cómo la identidad visual puede transmitir tanto o más que las palabras. En este caso, la web convierte la figura de un futbolista en una experiencia estética completa, donde diseño y personalidad van de la mano.</p>
-          </div>
-      </div>
-      <!-- ===== GALERÍA DE IMÁGENES ===== -->
-      <div class="image-gallery">
-        <h2>Galería de imágenes</h2>
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="assets/img/alaba1.png" alt="Referencia 1">
-            <p>Introducción con animación automática</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/alaba2.png" alt="Referencia 2">
-            <p>Galería de imágenes con grandes títulos</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/alaba3.png" alt="Referencia 3">
-            <p>Fundación con colores potentes</p>
-          </div>
-          <div class="gallery-item">
-            <img src="./assets/img/alaba4.png" alt="Referencia 4">
-            <p>Trayectoria con línea de tiempo con efecto de capa de fusión</p>
+          <!-- ===== GALERÍA DE IMÁGENES ===== -->
+          <div class="image-gallery">
+            <h2>Galería de imágenes</h2>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="./assets/img/relats-cap1.png" alt="Referencia 1" />
+                <p>Vista de Overview</p>
+              </div>
+              <div class="gallery-item">
+                <img src="./assets/img/relats-cap2.png" alt="Referencia 2" />
+                <p>Efectos de glassmorphism</p>
+              </div>
+              <div class="gallery-item">
+                <img src="./assets/img/relats-cap3.png" alt="Referencia 3" />
+                <p>Fotografías con grandes títulos</p>
+              </div>
+              <div class="gallery-item">
+                <img src="./assets/img/relats-cap4.png" alt="Referencia 4" />
+                <p>Llamada al contacto con render 3D</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-</div>
 
+        <!-- WEB 4 -->
+        <div class="analysis-container" id="web4">
+          <!-- Columna izquierda -->
+          <aside class="analysis-info">
+            <p class="subtitle-uppercase">WEB 4</p>
+            <h2 class="site-title">David Alaba</h2>
 
-</section>
+            <div class="tags">
+              <span class="tag active">Lifestyle</span>
+              <span class="tag">Tipografía</span>
+              <span class="tag">Visual</span>
+            </div>
+
+            <div class="text-block">
+              <h3>Descripción</h3>
+              <p>
+                Esta web es una web personal de David Alaba, un futbolista del
+                Real Madrid, donde recoge información sobre su vida, su
+                fundación y el contacto y es ganadora de los
+                <a href="https://www.awwwards.com/honors/winners#typography"
+                  >Honor Awwwards</a
+                >
+                por tipografía.
+              </p>
+            </div>
+          </aside>
+
+          <!-- Columna derecha: imagen de la web -->
+          <figure class="site-image">
+            <img
+              src="./assets/img/alaba-homepage.png"
+              alt="Captura del sitio relats"
+            />
+          </figure>
+        </div>
+
+        <div class="info-grid">
+          <div class="grid-container">
+            <div class="grid-block">
+              <h3>Impresión inicial</h3>
+              <p>
+                Nada más entrar la web de David Alaba, impacta por su fuerza
+                visual y el tono elegante a lo largo de toda la navegación,
+                empezando con un vídeo a pantalla completa con una tipografía
+                recortada que deja ver el vídeo y muchas fotografías que
+                muestran a David títulos grandes para destacar su persona. La
+                sensación general es de una marca personal, bien construida que
+                combinan la estética del deporte con la moda y el lifestyle. Se
+                percibe profesional, aspiración y con una ejecución técnica
+                impecable que engancha visualmente desde el inicio.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Enfoque teórico</h3>
+              <p>
+                En el plano visual se interpreta como la composición, los
+                contrastes y la tipografía en mayúsculas de fuerza en una
+                identidad fuerte moderna y premium, que quieren reflejar la
+                personalidad de David. Desde las habilidades se analiza la
+                claridad del recorrido, la jerarquía de contenidos y la fluidez
+                de navegación. Finalmente, en el enfoque crítico se reflexiona
+                sobre la construcción del personaje o sea en cómo el deportista
+                se presenta no solo como atleta, sino como una figura pública
+                con estilo y visión. Esta web no sólo comunica los logros de
+                esta persona, sino que crea una historia visual que mezcla,
+                éxito, elegancia y autenticidad.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Estructura y contenido</h3>
+              <p>
+                La estructura es simple y muy clara, ya que se ordenan las
+                secciones en un menú superior y cada sección se navega de forma
+                vertical y con fluidez gracias a efectos de Scroll y
+                transiciones suaves. Las secciones en las que se divide esta web
+                son la homepage, el recorrido del futbolista, su propia
+                presentación, su fundación, una galería de fotos, prensa y
+                contacto. El contenido es breve, pero cada palabra y elemento
+                visual son clave para reforzar la narrativa de marca personal.
+                Todo está pensado para que el usuario reciba la información de
+                manera intuitiva y sin distracciones.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Diseño visual e identidad</h3>
+              <p>
+                El diseño destaca por su elegancia y minimalismo. La paleta se
+                basa en negro, blanco y dorado. Lo que proyecta una imagen
+                sofisticada son las fotografías y vídeos en alta resolución. Se
+                mezclan con tipografías gruesas y limpias que aportan presencia.
+                Y además no hay exceso de elementos porque se usa el vacío y el
+                ritmo visual para crear una atmósfera de lujo y profesionalismo.
+                La marca se siente coherente y sólida y no pretende comunicar
+                que David Alaba es solo un futbolista, sino que también una
+                figura global con una visión estética definida.
+              </p>
+              <div class="colors-container">
+                <div class="circle10"></div>
+                <div class="circle11"></div>
+                <div class="circle12"></div>
+              </div>
+            </div>
+            <div class="grid-block">
+              <h3>Interacción y creatividad</h3>
+              <p>
+                El sitio mantiene un equilibrio entre el dinamismo y el control,
+                ya que se hace uso de transiciones suaves, los vídeos de fondo y
+                las animaciones sutiles aportan dinamismo sin saturar. Tampoco
+                hay un exceso de microacciones, pero si hay un trabajo de
+                detalle en cada movimiento. Esto se puede observar en el Scroll
+                los cambios de foco y la aparición de textos que aportan a la
+                narrativa visual.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Usabilidad y accesibilidad</h3>
+              <p>
+                La navegación es intuitiva y está bien resuelta. El menú
+                superior se mantiene visible, lo que facilita el desplazamiento
+                entre secciones. En dispositivos móviles la adaptación es buena,
+                aunque los videos pueden ralentizar la carga en conexiones
+                lentas. En términos de accesibilidad, los contrastes son buenos
+                y se hace uso de textos grandes y precisos, lo cual facilita la
+                lectura. En general, la experiencia es fluida y cuidada, lo que
+                demuestra un buen equilibrio entre estética y funcionalidad.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Valoración por excelencia</h3>
+              <p>
+                La web de David Alaba cumple ampliamente con los criterios de
+                excelencia pues tiene coherencia visual, dirección de arte,
+                narrativa y experiencia de usuario. Cada elemento está alineado
+                con la identidad de la marca y colocado con intención. A nivel
+                técnico, demuestra control y solidez, con un acabado pulido y
+                profesional. Lo más destacable es cómo logra transmitir una
+                historia sin depender del texto y dejar hablar al diseño por sí
+                mismo. Su punto fuerte es la consistencia estética y la forma en
+                que proyecta profesionalidad de forma cercana para conectar con
+                su audiencia. Está web es un ejemplo claro de cómo unir diseño,
+                storytelling y tecnología para construir una marca personal
+                impactante y emocionalmente potente.
+              </p>
+            </div>
+            <div class="grid-block">
+              <h3>Conclusiones y aprendizajes</h3>
+              <p>
+                En resumen, esta web es un gran ejemplo de cómo un diseño visual
+                puede elevar la percepción de una marca personal. Sus puntos
+                fuertes son su dirección de arte, su coherencia visual y la
+                forma en que combina deporte y estilo con una narrativa clara.
+                Como posibles mejoras, se podría optimizar el rendimiento móvil
+                y ajustar ciertos aspectos de accesibilidad. Lo que más se puede
+                aprender de este sitio es cómo la identidad visual puede
+                transmitir tanto o más que las palabras. En este caso, la web
+                convierte la figura de un futbolista en una experiencia estética
+                completa, donde diseño y personalidad van de la mano.
+              </p>
+            </div>
+          </div>
+          <!-- ===== GALERÍA DE IMÁGENES ===== -->
+          <div class="image-gallery">
+            <h2>Galería de imágenes</h2>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="assets/img/alaba1.png" alt="Referencia 1" />
+                <p>Introducción con animación automática</p>
+              </div>
+              <div class="gallery-item">
+                <img src="./assets/img/alaba2.png" alt="Referencia 2" />
+                <p>Galería de imágenes con grandes títulos</p>
+              </div>
+              <div class="gallery-item">
+                <img src="./assets/img/alaba3.png" alt="Referencia 3" />
+                <p>Fundación con colores potentes</p>
+              </div>
+              <div class="gallery-item">
+                <img src="./assets/img/alaba4.png" alt="Referencia 4" />
+                <p>
+                  Trayectoria con línea de tiempo con efecto de capa de fusión
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-		<footer>
-			<div class="container">
-				<p>© 2025 Carla Kaubisch Granados — WEB ATELIER (UDIT) · Web Design (2025 Fall).</p> 
-				<p>
-					<a href="https://github.com/ruvebal/web-atelier-udit">Course Framework</a>
-					·
-					<a href="project-brief.md">Project Brief</a>
-				</p>
-				<!-- Sugerencia: Puedes agregar enlaces a redes sociales o contacto aquí -->
-			</div>
-		</footer>
+    <footer>
+      <div class="container">
+        <p>
+          © 2025 Carla Kaubisch Granados — WEB ATELIER (UDIT) · Web Design (2025
+          Fall).
+        </p>
+        <p>
+          <a href="https://github.com/ruvebal/web-atelier-udit"
+            >Course Framework</a
+          >
+          ·
+          <a href="project-brief.md">Project Brief</a>
+        </p>
+        <!-- Sugerencia: Puedes agregar enlaces a redes sociales o contacto aquí -->
+      </div>
+    </footer>
 
-		<script src="./assets/js/main.js"></script> <!-- Enlace al archivo JavaScript principal -->
-		<!-- Sugerencia: Añade scripts adicionales al final para mejorar el rendimiento -->
-	</body>
+    <script src="./assets/js/main.js"></script>
+    <!-- Enlace al archivo JavaScript principal -->
+    <!-- Sugerencia: Añade scripts adicionales al final para mejorar el rendimiento -->
+  </body>
 </html>
