@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap JavaScript Bundle (incluye Popper) -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- Tarjeta compleja usando solo utilidades -->
+    <article class="card border-0 shadow-sm mb-4">
+      <div class="card-body p-4">
+        <div class="d-flex align-items-start mb-3">
+          <img
+            src="https://picsum.photos/200/300"
+            class="rounded-circle me-3 flex-shrink-0"
+            style="width: 48px; height: 48px"
+            alt="Autor"
+          />
+          <div class="flex-grow-1">
+            <h6 class="mb-1 fw-semibold">Título del Artículo</h6>
+            <p class="text-muted small mb-2">
+              Por Nombre del Autor • 5 min de lectura
+            </p>
+            <div class="d-flex gap-2 flex-wrap">
+              <span class="badge bg-primary">Tecnología</span>
+              <span class="badge bg-secondary">Tutorial</span>
+            </div>
+          </div>
+          <button
+            class="btn btn-link p-0 text-muted ms-2"
+            aria-label="Más opciones"
+          >
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+              <!-- ... -->
+            </svg>
+          </button>
+        </div>
+        <p class="card-text text-muted lh-base mb-3">
+          Extracto del artículo que demuestra cómo las utilidades crean diseños
+          consistentes y mantenibles...
+        </p>
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center gap-3 text-muted small">
+            <span class="d-flex align-items-center gap-1">
+              <span>👍</span>
+              <span>42</span>
+            </span>
+            <span class="d-flex align-items-center gap-1">
+              <span>💬</span>
+              <span>8</span>
+            </span>
+          </div>
+          <a href="/artículo" class="btn btn-primary btn-sm px-3 py-2"
+            >Leer Más</a
+          >
+        </div>
+      </div>
+    </article>
+    <article>
+      <div class="text-sm-center text-md-start text-lg-end">
+        <!-- Centrado en pantallas pequeñas, alineado a la izquierda en medianas+, alineado a la derecha en grandes+ -->
+      </div>
+
+      <div class="d-none d-md-block d-lg-flex">
+        <!-- Oculto en pequeño, mostrado como bloque en mediano, flexbox en grande -->
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <!-- Ancho completo en móvil, mitad en tabletas pequeñas, tercio en mediano, cuarto en grande -->
+      </div>
+    </article>
+
+    <article>
+      <div class="container py-5">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!-- Sección Hero -->
+            <section class="text-center mb-5">
+              <h1 class="display-4 fw-bold text-primary mb-3">
+                Bootstrap Utility-First
+              </h1>
+              <p class="lead text-muted mb-4">
+                Construyendo diseños responsivos con clases utilitarias de
+                Bootstrap
+              </p>
+              <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <button class="btn btn-primary px-4 py-2">Comenzar</button>
+                <button class="btn btn-outline-secondary px-4 py-2">
+                  Aprender Más
+                </button>
+              </div>
+            </section>
+
+            <!-- Tarjetas de Características -->
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4">
+                <article
+                  class="card h-100 border-0 shadow-sm hover:shadow-lg transition-all duration-300"
+                >
+                  <div class="card-body p-4 text-center">
+                    <div class="mb-3">
+                      <div
+                        class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center"
+                        style="width: 48px; height: 48px"
+                      >
+                        🚀
+                      </div>
+                    </div>
+                    <h5 class="card-title fw-semibold mb-3">
+                      Desarrollo Rápido
+                    </h5>
+                    <p class="card-text text-muted">
+                      Construye diseños complejos rápidamente sin escribir CSS
+                      personalizado.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <article
+                  class="card h-100 border-0 shadow-sm hover:shadow-lg transition-all duration-300"
+                >
+                  <div class="card-body p-4 text-center">
+                    <div class="mb-3">
+                      <div
+                        class="bg-success text-white rounded-circle d-inline-flex align-items-center justify-content-center"
+                        style="width: 48px; height: 48px"
+                      >
+                        📱
+                      </div>
+                    </div>
+                    <h5 class="card-title fw-semibold mb-3">Mobile-First</h5>
+                    <p class="card-text text-muted">
+                      Diseño responsivo que funciona perfectamente en todos los
+                      dispositivos.
+                    </p>
+                  </div>
+                </article>
+              </div>
+
+              <div class="col-md-6 col-lg-4">
+                <article
+                  class="card h-100 border-0 shadow-sm hover:shadow-lg transition-all duration-300"
+                >
+                  <div class="card-body p-4 text-center">
+                    <div class="mb-3">
+                      <div
+                        class="bg-info text-white rounded-circle d-inline-flex align-items-center justify-content-center"
+                        style="width: 48px; height: 48px"
+                      >
+                        🎨
+                      </div>
+                    </div>
+                    <h5 class="card-title fw-semibold mb-3">
+                      Diseño Consistente
+                    </h5>
+                    <p class="card-text text-muted">
+                      Mantén consistencia de diseño en todo tu proyecto.
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <!-- Llamado a la Acción -->
+            <section
+              class="text-center mt-5 p-5 bg-primary text-white rounded-3"
+            >
+              <h2 class="fw-bold mb-3">¿Listo para Comenzar?</h2>
+              <p class="lead mb-4 opacity-75">
+                Únete a miles de desarrolladores usando el enfoque utility-first
+                de Bootstrap.
+              </p>
+              <div class="d-flex justify-content-center gap-3">
+                <a href="#" class="btn btn-light btn-lg px-4 py-2"
+                  >Ver Documentación</a
+                >
+                <a href="#" class="btn btn-outline-light btn-lg px-4 py-2"
+                  >Comenzar</a
+                >
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>

@@ -235,48 +235,6 @@ main, footer {
 	font-size: 0.875rem;
 }
 
-/* Selectores
-.selectors {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
-  justify-content:space-around;
-  font-family: var(--body-large);
-}
-
-.selector {
-  padding: 0.5rem 1rem;
-  border: none;
-  background-color: #eee;
-  cursor: pointer;
-  border-radius: 6px;
-  font-family: var(--body-large);
-
-}
-
-.selector.active {
-  background-color: #fca859;
-  color: #fff;
-}
-
-/* Contenido tabs */
-/* .tab-content .tab-pane {
-  display: none;
-}
-
-.tab-content .tab-pane.active {
-  display: block;
-}
-
-.columns {
-  display: flex;
-  gap: 2rem;
-}
-
-.columns p {
-  flex: 1;
-} */ 
-
 /* GRID DE ANÁLISIS DETALLADO */
 /* ========================================================= */
 .info-grid {
